@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>joy_gpio_toggle</name>
+  <version>0.0.1</version>
+  <description>A simple ROS2 package to toggle a GPIO using a joystick button</description>
+  <maintainer email="spencer@sploeger.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <!-- wiringPi should be installed on the Raspberry Pi -->
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
